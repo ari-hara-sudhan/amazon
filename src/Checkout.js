@@ -13,9 +13,9 @@ function Checkout() {
 
          
 {basket?.length ===0 ?(
-<div>
+<div className="checkout__none">
 <h3 >Your shoping card is empty</h3>
-<p>You have no items in your basket.To buy one or Two items u need to Add to the</p>
+<p>You have no items in your basket.To buy one or Two items u need to Add to the Basket..</p>
 </div>
 )
 :
