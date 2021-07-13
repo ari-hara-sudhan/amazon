@@ -1,5 +1,6 @@
 export const initialState={
     basket:[],
+    user:null,
 }
 
 
@@ -9,6 +10,11 @@ export const getBasketTotal=(basket)=>
 function reducer(state,action){
     console.log(action)
     switch(action.type){
+        case "SET_USER":
+            return{
+                ...state,
+                user:action.user,
+            }
         case "ADD_TO_BASKET":
             return{
                 ...state,
@@ -25,6 +31,8 @@ function reducer(state,action){
             }else{
                 console.warn("NO item to remove.... ")
             }
+
+        
             return{
                 ...state,
                 basket:newBasket,
