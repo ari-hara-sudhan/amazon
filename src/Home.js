@@ -8,12 +8,14 @@ function Home() {
 
         <div className="home__row">
         <Product
+            id="1"
             title="The Lean Statrtup"
             price={11.04}
             rating={4}
             image="https://www.bing.com/th?id=AMMS_6587b2a863d571e8d9477ab4414c7fa9&w=120&h=180&c=7&rs=1&qlt=80&o=6&cdv=1&dpr=1.25&pid=16.1" 
             />
                 <Product
+                id="2"
             title="The Lean Statrtup"
             price={11.04}
             rating={4}
@@ -24,18 +26,21 @@ function Home() {
         
         <div className="home__row">
         <Product
+        id="3"
             title="The Lean Statrtup"
             price={11.04}
             rating={4}
             image="https://th.bing.com/th/id/OIP.mHSUazbsuJz9NSk7vUFWeAHaEK?pid=ImgDet&rs=1" 
             />
                 <Product
+                id="4"
             title="The Lean Statrtup"
             price={11.04}
             rating={4}
             image="https://th.bing.com/th/id/OIP._7GLxkhB5FudMHU4fsO5_AHaHa?pid=ImgDet&rs=1" 
             />
              <Product
+             id="5"
             title="The Lean Statrtup"
             price={11.04}
             rating={4}
@@ -45,6 +50,7 @@ function Home() {
         </div>
         <div className="home__row">
         <Product
+        id="6"
             title="The led is perfect to watch movies"
             price={11.04}
             rating={4}
